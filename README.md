@@ -7,3 +7,11 @@
 # sudo apt install haproxy -y
 
 # sudo nano /etc/haproxy/haproxy.cfg
+
+# Checking the Configuration
+
+sudo haproxy -c -f /etc/haproxy/haproxy.cfg
+
+# Testing the Setup
+
+curl http://haproxy_server_ip
