@@ -5,3 +5,5 @@
 # sudo apt update && apt upgrade -y
 
 # sudo apt install haproxy -y
+
+# sudo nano /etc/haproxy/haproxy.cfg
